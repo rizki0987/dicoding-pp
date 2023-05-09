@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            text-align: center;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        li {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        li strong {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        li a {
+            display: block;
+            height: 30px;
+            width: 30px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-right: 10px;
+            float: left;
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0.6;
+        }
+
+        li a:hover {
+            opacity: 1;
+        }
+
+        li a.linkedin {
+            background-image: url('./resource/GitHub.svg');
+        }
+
+        li a.facebook {
+            background-image: url('./resource/fb-icon.png');
+        }
+
+        li a.instagram {
+            background-image: url('./resource/ig-icon.png');
+        }
+
+        li a.github {
+            background-image: url('./resource/tw-icon.png');
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>My Profile</h1>
+    <img src="./resource/profile.png" alt="Profile Picture" class="profile-pic">
+    <p>
+        My name is Rizki and I am a student. I am passionate about creating high-quality website and love to tackle challenging problems. In my free time, I enjoy reading books.
+    </p>
+    <ul>
+        <li><strong>Name:</strong> Rizki Ali Ramadhan</li>
+        <li><strong>Age:</strong> 20</li>
+        <li><strong>Job:</strong> Student</li>
+        <li><strong>Phone:</strong> 082230910499</li>
+        <li><strong>Email:</strong> rizki234_ra@student.ub.ac.id</li>
+        <li>
+            <strong>Social Media:</strong>
+            <li>
+                <li><a href="https://www.linkedin.com/in/rizki-ali-ramadhan-837b9a271" class="linkedin" target="_blank"></a></li>
+                <li><a href="https://www.facebook.com/rizki.alram.3" class="facebook" target="_blank"></a></li>
+                <li><a href="https://www.instagram.com/rizki_ali_" class="instagram" target="_blank"></a></li>
+                <li><a href="https://github.com/rizki0987" class="github" target="_blank"></a></li>
+            </li>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
+
+
